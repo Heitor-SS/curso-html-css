@@ -1,0 +1,23 @@
+div {
+    background-color:#000;
+    padding-left:600px;
+    padding-top:25px;
+    padding-bottom:25px;
+    color:#FFF
+}
+body {
+    margin:0px
+}
+button {
+    background-color:#07F;
+}
+.criar {
+    padding-left:15px;
+    padding-top:10px;
+    padding-right:15px
+}
+.entrar {
+    padding-left:15px;
+    padding-top:10px;
+    padding-right:15px;
+}
