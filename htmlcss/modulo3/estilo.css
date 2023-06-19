@@ -2,4 +2,21 @@ p {
     font-size:20px;
     text-shadow:1px 2px 3px #08f;
     text-height:bold;
+    font-family:cursive;
+}
+thead {
+    background-color:#999;
+    text-align:left;
+}
+tbody tr:hover {
+    background-color:#AAA;
+}
+table {
+    width:400px;
+}
+tbody tr:nth-child(even) {
+    background-color:#DDD;
+}
+th, td {
+    padding:10px;
 }
