@@ -20,3 +20,9 @@ tbody tr:nth-child(even) {
 th, td {
     padding:10px;
 }
+fieldset {
+    background-color:#EEE
+}
+legend {
+    background-color:#AAA;
+}

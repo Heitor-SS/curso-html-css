@@ -7,28 +7,19 @@
     </head>
     <body>
       <div>
-        <p>TEXTO PARA DECORAÇÃO</p>
-        <p><table>
-          <thead>
-            <tr>
-              <th>qualidade</th>
-              <th>item</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>ótima</td>
-              <td>dualsense PS5</td>
-            </tr>
-            <tr>
-              <td>ótima</td>
-              <td>controle NSWITCH</td>
-            </tr>
-          </tbody>
-        </table></p>
-        <form action="senhas,etc.html" method="POST">
+        <p>LOGIN</p>
+        <form action="pagina-principal.html" method="POST" enctype="multipart/form-data">
           <div>
-            <input type="password"/>
+            <fieldset>
+              <legend><p>PERFIL</p></legend>
+            <p>NOME:</p>
+            <input type="text" name="name" required minlength="2" maxlength="50"/>
+            <p>SENHA:</p>
+            <input type="password" name="password" required minlength="8" maxlength="16"/>
+            <p>FOTO:</p>
+            <input type="file" name="photo" required accept="image/*"/>
+            </fieldset>
+            <input type="submit" name="submit"/>
           </div>
         </form>
       </div>
