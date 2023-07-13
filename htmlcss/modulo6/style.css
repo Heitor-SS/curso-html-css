@@ -8,4 +8,20 @@ header {
     height: 100px;
     color: #FFF;
     text-align: center;
+    font-size: 30px;
+}
+article {
+    background-color: #666;
+    font-size: 30px;
+    height: 500px;
+}
+address {
+    color: #FFF;
+}
+address heitor {
+    color: #707;
+    box-shadow: 1px 1px 5px #808;
+}
+footer {
+    background-color: #555;
 }
