@@ -263,6 +263,7 @@ footer {
 }
 .footer_areaitem {
     flex: 1;
+    color: #7e7e7e;
 }
 .flexColumn {
     flex-direction: column;
@@ -280,4 +281,14 @@ footer .widget_title_text {
 }
 copyr {
     color: #fff;
+}
+.fm_sbt {
+    font-size: 16px;
+}
+.wbf {
+    padding-top: 30px;
+}
+.ftitle {
+    font-size: 25px;
+    margin: 0
 }
