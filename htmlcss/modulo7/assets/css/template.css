@@ -266,6 +266,7 @@ footer {
 .footer_areaitem {
     flex: 1;
     color: #7e7e7e;
+    margin-right: 20px;
 }
 .flexColumn {
     flex-direction: column;
@@ -303,6 +304,7 @@ copyr {
     width: 30px;
     height: 30px;
     margin-right: 8px;
+    margin-top: 30px;
 }
 .social_media {
     display: flex;
@@ -335,4 +337,16 @@ copyr {
 .seta a {
     margin: 0;
     padding: 0;
+}
+.tweets {
+    display: flex;
+    text-decoration: none;
+    color: #fff;
+}
+.tweets_dates {
+    color: #36a9e1;
+    text-decoration: none;
+}
+span {
+    color: #fff;
 }
