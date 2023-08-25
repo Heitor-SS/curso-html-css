@@ -1,0 +1,39 @@
+body {
+    background-color: #333;
+    color: #999;
+    padding: 0;
+    margin: 0;
+    font-family: arial;
+}
+.nome_e_descrição h1 {
+    background-color: #222;
+    padding-left: 700px;
+    padding-top: 0;
+    margin: 0;
+    font-size: 80px;
+}
+h2 {
+    font-size: 40px;
+    padding-left: 680px;
+}
+.Messi_link {
+    text-decoration: none;
+    color: #999;
+}
+.Messi_img {
+    padding-left: 635px;
+    width: 600px;
+    height: 600px;
+}
+article {
+    background-color: aqua;
+    color: #fff;
+    width: 700px;
+    margin-left: 580px
+}
+data_nasc {
+    margin-left: 710px;
+}
+data {
+    background-color: #000;
+}
