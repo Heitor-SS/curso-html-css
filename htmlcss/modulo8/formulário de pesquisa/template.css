@@ -1,0 +1,28 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+fieldset {
+    background-color: darkgrey;
+    margin-left: 400px;
+    margin-right: 400px;
+    text-align: center;
+}
+h1 {
+    background-color: #09f;
+}
+.button_cad {
+    font-size: 30px;
+    padding-left: 90px;
+    padding-right: 90px;
+    background-color: #07f;
+    border-radius: 15px;
+}
+h2 {
+    background-color: #999;
+}
+h3 {
+    background-color: lightgrey;
+    padding: 25px;
+}

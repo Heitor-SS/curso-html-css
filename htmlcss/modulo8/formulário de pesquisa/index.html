@@ -1,9 +1,53 @@
 <!DOCTYPE html>
+
 <html>
+
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width,user-scalable=0" />
         <title>Formulário de pesquisa</title>
         <link rel="stylesheet" href="template.css">
     </head>
+
+    <body>
+
+        <form>
+
+    <fieldset>
+
+        <legend><h1>Cadastro</h1></legend><br>
+
+        <label>
+            <h2>Nome Completo</h2>
+            <input name="nome" value="" type="text" minlength="2" maxlength="85" required>
+        </label>
+
+        <label>
+            <h2>E-mail</h2>
+            <input name="Email" value="" type="email" required>
+        </label>
+        
+        <label>
+            <h2>Senha</h2>
+            <input name="Senha" value="" type="password" required><br>
+        </label>
+
+        <label>
+            <input name="lembrar-me" value="lembrar-me" type="checkbox">lembrar-me<br>
+        </label>
+        
+        <label>
+            <a href=""><input class="button_cad" name="cadastro" value="Cadastrar" type="button"><br></a> 
+        </label>
+        
+        <h3>
+            Já tem uma conta? <a href=""><input name="logar" value="Login" type="button"></a> 
+        </h3>
+    
+    </fieldset>
+
+        </form>
+
+    </body>
+
 </html>
