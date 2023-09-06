@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(degradeF.jpg);
+}
+header {
+    display: flex;
+    background-color: #424242;
+    padding-left: 800px;
+    padding-top: 25px;
+    padding-bottom: 25px 
+} 
+.samsung {
+    font-size: 25px;
+    color: #fff;
+}
+.buy {
+    margin-left: 50px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid #757575;
+    background-color: #757575;
+}
+.cellphone {
+    width: 400px;
+    height: 300px;
+}
+article {
+    display: flex;
+}
+.info {
+    margin: 0;
+    padding-top:70px;
+    text-align: center;
+    background-color: #757575;
+    color: #fff;
+}
+footer {
+    background-color: black;
+    color: #fff;
+    margin-top: 541px;
+    text-align: center;
+}
