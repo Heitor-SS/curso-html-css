@@ -29,8 +29,8 @@ Tecnologias apreendidas nesse curso:
 
 <p>Projetos e desafios em HTML e CSS desenvolvidos no curso</p>
 
-- [Stage 03 - Desafio 01](https://github.com/BrunoDias312/curso-rocketseat/tree/main/Explorer/Stege%2003/part%2001/desafio-01)
-- [Stage 03 - Desafio 02](https://github.com/BrunoDias312/curso-rocketseat/tree/main/Explorer/Stege%2003/part%2001/desafio-02)
+- [Módulo 01 - Conceitos Básicos](https://github.com/Heitor-SS/curso-html-css/tree/main/htmlcss/modulo1)
+- [Módulo 02 - Entendendo o Html com o Css](https://github.com/Heitor-SS/curso-html-css/tree/main/htmlcss/modulo2)
 - [Stage 03 - AulaForm](https://github.com/BrunoDias312/curso-rocketseat/tree/main/Explorer/Stege%2003/part%2001/docs)
 - [Stage 03 - Desafio Cats](https://github.com/BrunoDias312/curso-rocketseat/tree/main/Explorer/Stage%2003/part%2004/desafio-blog-gatos)
 - [Stage 05 - Desafio Do Biscoito](https://github.com/BrunoDias312/curso-rocketseat/tree/main/Explorer/Stage%2005/part%2001/Biscoito%20da%20sorte)
