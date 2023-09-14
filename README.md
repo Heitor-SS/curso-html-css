@@ -31,9 +31,11 @@ Tecnologias apreendidas nesse curso:
 
 - [Módulo 01 - Conceitos Básicos](https://github.com/Heitor-SS/curso-html-css/tree/main/htmlcss/modulo1)
 - [Módulo 02 - Entendendo o Html com o Css](https://github.com/Heitor-SS/curso-html-css/tree/main/htmlcss/modulo2)
-- [Stage 03 - AulaForm](https://github.com/BrunoDias312/curso-rocketseat/tree/main/Explorer/Stege%2003/part%2001/docs)
-- [Stage 03 - Desafio Cats](https://github.com/BrunoDias312/curso-rocketseat/tree/main/Explorer/Stage%2003/part%2004/desafio-blog-gatos)
-- [Stage 05 - Desafio Do Biscoito](https://github.com/BrunoDias312/curso-rocketseat/tree/main/Explorer/Stage%2005/part%2001/Biscoito%20da%20sorte)
+- [Módulo 03 - Listas,Tabelas e Formulários](https://github.com/Heitor-SS/curso-html-css/tree/main/htmlcss/modulo3))
+- [Módulo 04 - Características do Css](https://github.com/Heitor-SS/curso-html-css/tree/main/htmlcss/modulo4)
+- [Módulo 05 - Responsividade](https://github.com/Heitor-SS/curso-html-css/tree/main/htmlcss/modulo5)
+- [Módulo 06 - Responsividade](https://github.com/Heitor-SS/curso-html-css/tree/main/htmlcss/modulo6)
+- [Módulo 07 - Responsividade](https://github.com/Heitor-SS/curso-html-css/tree/main/htmlcss/modulo7)
 
 ## :memo: Licença
 
