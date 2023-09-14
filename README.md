@@ -31,7 +31,7 @@ Tecnologias apreendidas nesse curso:
 
 - [Módulo 01 - Conceitos Básicos](https://github.com/Heitor-SS/curso-html-css/tree/main/htmlcss/modulo1)
 - [Módulo 02 - Entendendo o Html com o Css](https://github.com/Heitor-SS/curso-html-css/tree/main/htmlcss/modulo2)
-- [Módulo 03 - Listas,Tabelas e Formulários](https://github.com/Heitor-SS/curso-html-css/tree/main/htmlcss/modulo3))
+- [Módulo 03 - Listas,Tabelas e Formulários](https://github.com/Heitor-SS/curso-html-css/tree/main/htmlcss/modulo3)
 - [Módulo 04 - Características do Css](https://github.com/Heitor-SS/curso-html-css/tree/main/htmlcss/modulo4)
 - [Módulo 05 - Responsividade](https://github.com/Heitor-SS/curso-html-css/tree/main/htmlcss/modulo5)
 - [Módulo 06 - Semântica e Css Avançado](https://github.com/Heitor-SS/curso-html-css/tree/main/htmlcss/modulo6)
