@@ -34,8 +34,8 @@ Tecnologias apreendidas nesse curso:
 - [Módulo 03 - Listas,Tabelas e Formulários](https://github.com/Heitor-SS/curso-html-css/tree/main/htmlcss/modulo3))
 - [Módulo 04 - Características do Css](https://github.com/Heitor-SS/curso-html-css/tree/main/htmlcss/modulo4)
 - [Módulo 05 - Responsividade](https://github.com/Heitor-SS/curso-html-css/tree/main/htmlcss/modulo5)
-- [Módulo 06 - Responsividade](https://github.com/Heitor-SS/curso-html-css/tree/main/htmlcss/modulo6)
-- [Módulo 07 - Responsividade](https://github.com/Heitor-SS/curso-html-css/tree/main/htmlcss/modulo7)
+- [Módulo 06 - Semântica e Css Avançado](https://github.com/Heitor-SS/curso-html-css/tree/main/htmlcss/modulo6)
+- [Módulo 07 - Flexbox na Prática](https://github.com/Heitor-SS/curso-html-css/tree/main/htmlcss/modulo7)
 
 ## :memo: Licença
 
