@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #333333
+}
+
+.balao {
+    background-color: #00f;
+    display: inline-block;
+    color: #fff;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.balao::after {
+    content: '';
+    display: block;
+    position: absolute;
+    margin-top: 15px;
+    border:15px solid;
+    border-color:#00f transparent transparent #00f;
+}
+
+.rgba {
+    color: rgba(255, 10, 255, 0.50);
+    background-color: #707070;
+    margin-top: 50px;
+    width: 50px;
+}
