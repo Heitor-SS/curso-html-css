@@ -37,6 +37,7 @@ Tecnologias apreendidas nesse curso:
 - [Módulo 06 - Semântica e Css Avançado](https://github.com/Heitor-SS/curso-html-css/tree/main/htmlcss/modulo6)
 - [Módulo 07 - Flexbox na Prática](https://github.com/Heitor-SS/curso-html-css/tree/main/htmlcss/modulo7)
 - [Módulo 08 - Seletores e Css3](https://github.com/Heitor-SS/curso-html-css/tree/main/htmlcss/modulo8)
+- [Módulo 09 - Projeto Awax](https://github.com/Heitor-SS/curso-html-css/tree/main/htmlcss/modulo9)
 
 ## :memo: Licença
 
