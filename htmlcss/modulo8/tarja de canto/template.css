@@ -1,0 +1,18 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #555;
+}
+.tarja { 
+    text-align: center;
+    margin-top: 50px;
+    display: block;
+    height: 30px;
+    width: 150px;
+    background-color: #09f;
+    transform: rotate(-45deg);
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}

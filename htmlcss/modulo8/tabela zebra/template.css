@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #333;
+}
+table {
+    height: 250px;
+    margin-left: 500px;
+    margin-top: 100px;
+}
+thead {
+    background-color: #555;
+}
+tbody {
+    background-color: #fff;
+}
+tr:nth-child(even) {
+    background-color: #888;
+}
