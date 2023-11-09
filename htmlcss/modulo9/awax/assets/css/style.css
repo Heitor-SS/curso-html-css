@@ -68,7 +68,7 @@ header {
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 600;
-    margin-top: 30px;
+    margin-bottom: 30px;
     text-decoration: none;
     padding: 10px 30px;
     border-radius: 20px;
@@ -264,4 +264,197 @@ Css de areas especificas
 .section-projects--photo {
     width: 280px;
 }
-
+.section-projects--photoarea {
+    margin: 10px;
+    width: 260px;
+    height: 160px;
+}
+.section-projects--photoarea img {
+    width: inherit;
+    height: inherit;
+}
+.section-projects--photoinfo {
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    flex-direction: column;
+}
+.section-projects--photoinfo h5 {
+    font-size: 12px;
+    font-weight: 600;
+}
+.section-projects--photoarea:hover .section-projects--photoinfo {
+    display: flex;
+}
+.bg-team {
+    background-image: url('../images/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 0;
+}
+.section-team {
+    overflow: hidden;
+    max-width: 880px;
+    margin: auto;
+}
+.section-team-area {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.section-team .sliders {
+    width: 1000vw;
+    height: 100%;
+}
+.section-team .slide {
+    margin-right: 20px;
+    min-height: 300px;
+    width: 280px;
+    height: 100%;
+    display: inline-block;
+    background-color:#fff;
+}
+.section-team .slidearea {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    color: #000;
+    justify-content: center;
+}
+.section-team-area .slider_pointers {
+    margin-top: 30px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-team-area .pointer {
+    width: 15px;
+    height: 15px;
+    border: 2px solid #b28756;
+    border-radius: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.section-team-area .pointer.active {
+    background-color: #b28756;
+}
+.section-team--avatar {
+    padding: 20px;
+    width: 182px;
+    height: auto;
+}
+.section-team--name {
+    margin-top: 42px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size:14px ;
+}
+.section-team--role {
+    margin-top: 10px;
+    font-size: 10px;
+    color: #b9b9b9;
+}
+.section-team--social {
+    margin-top: 36px;
+    margin-bottom:40px;
+}
+.section-team--social a{
+    height: 30px;
+    width: 30px;
+    display: inline-flex;
+    justify-content: center;
+    background-color: #bebebe;
+    border-radius: 13px;
+}
+.section-team--social a:hover {
+    background-color: #b28756;
+}
+.client {
+    background-color: #f7f7f7;
+}
+.section-client .slidearea {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    color: #000;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    justify-content: center;
+}
+.section-client--avatar {
+    padding: 20px;
+    width: 182px;
+    height: auto;
+}
+.section-client--name {
+    margin-top: 42px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size:14px ;
+}
+.section-client-role {
+    text-transform: uppercase;
+    margin-top: 10px;
+    font-size: 12px;
+    color: #313131;
+}
+.section-client .slidearea h1 {
+    width: 18px;
+    height: auto;
+    margin-top: 14px;
+    margin-bottom: 12px;
+}
+.section-client .slidearea p {
+    font-size: 10px;
+    color: #919191;
+    text-align: center;
+}
+.section-companies {
+    justify-content: center;
+    align-items: center;
+    height: 156px;
+    display:inline-flex;
+    border-top:1px solid #e3e3e3;
+    border-bottom:1px solid #d3d3d3;
+}
+.section-companies img {
+    margin-left: 100px;
+    height: 54px;
+    width: 100%;
+}
+.section-price--type {
+    font-size: 10px;
+}
+.section-prices {
+    display: flex;
+}
+.section-price .slidearea {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    color: #000;
+    justify-content: center;
+}
+.section-price .slide {
+    margin-right: 20px;
+    min-height: 300px;
+    width: 280px;
+    height: 100%;
+    display: inline-block;
+    background-color:#fff;   
+} 
