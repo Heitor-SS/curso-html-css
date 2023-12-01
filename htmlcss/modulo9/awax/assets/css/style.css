@@ -422,6 +422,25 @@ Css de areas especificas
     color: #919191;
     text-align: center;
 }
+.section-client .pointer {
+    width: 15px;
+    height: 15px;
+    border: 2px solid #b28756;
+    border-radius: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+} 
+.section-client .slider_pointers {
+    margin-top: 30px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-client .pointer.active {
+    background-color: #b28756;
+}
 .section-companies {
     justify-content: center;
     align-items: center;
@@ -436,12 +455,16 @@ Css de areas especificas
     width: 100%;
 }
 .section-price--type {
+    text-transform: uppercase;
     font-size: 10px;
+    margin-top: 15px;
+    font-weight: 600;
 }
 .section-prices {
     display: flex;
+    flex-wrap: nowrap;
 }
-.section-price .slidearea {
+.section-prices .slidearea {
     background-color: #fff;
     display: flex;
     flex-direction: column;
@@ -450,11 +473,237 @@ Css de areas especificas
     color: #000;
     justify-content: center;
 }
-.section-price .slide {
+.section-prices .slide {
     margin-right: 20px;
     min-height: 300px;
-    width: 280px;
-    height: 100%;
     display: inline-block;
     background-color:#fff;   
+}
+.section-prices--area {
+    height: 560px;
+    width: 100%;
+}
+.section-price {
+    display: flex;
+    flex-direction: column;
+    height: 344px;
+    width: 260px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.section-price--value {
+    font-weight: bold;
+    font-size: 22px;
+    margin-top: 16px;
+}
+.section-price--value h6 {
+    margin-left: 15px;
+    font-size:8px ;
+    color: #b9b9b9;
+    text-transform: uppercase;
+}
+.section-price--benefits {
+    height: 112px;
+    width: auto;
+    font-size: 6px;
+    color: #7e7e7e;
+    margin-top: 24px;
+}
+.section-price--benefits .ul div {
+    height: 1px;
+    width: 8px;
+    background-color: #7e7e7e;
+    margin-left: 40px;
+}
+.section-price--benefits a {
+    margin-top: 15px;
+    background-color:#000 ;
+}
+.section-price--benefits a:hover {
+    background-color: #b28756;
+}
+.section-premium {
+    display: flex;
+    border-bottom: 1px solid #000;
+}
+.section-premium--left {
+    flex: 1;
+}
+.section-premium--right {
+    width: 444px;
+    margin-left:31px ;
+}
+.section-premium--title {
+    font-weight: bold;
+    font-size: 14px;
+}
+.premium .button {
+    margin-left:600px ;
+    margin-top: 20px;
+}
+.premium .pointer {
+    width: 15px;
+    height: 15px;
+    border: 2px solid #b28756;
+    border-radius: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
 } 
+.premium .slider_pointers {
+    margin-top: 30px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.premium .pointer.active {
+    background-color: #b28756;
+}
+.section-service h1 {
+    color: #b28756;
+}
+.line {
+    background-color: #7e7e7e;
+    height: 1px;
+    width: 8px;
+    margin-top: 15px;
+    margin-left: 122px;
+}
+.contacts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #7e7e7e;
+}
+.contacts a {
+    margin-left: 15px;
+    height: 30px;
+    width: 30px;
+    display: inline-flex;
+    justify-content: center;
+    border-radius: 15px;
+}
+.contacts .facebook {
+    background-color: #07f;
+}
+.contacts .twitter {
+    background-color: #0af;
+}
+.contacts .googleplus {
+    background-color: #f30;
+}
+.contacts .linkedin {
+    background-color: #077;
+}    
+.contact-us input {
+    border: 0px;
+    border-bottom:1px solid #000;
+}
+.contact-us .name {
+    width: auto;
+    margin-left: 250px;
+}
+.contact-us .email {
+    width: 400px;
+}
+.contact-us .subject {
+    margin-left: 250px;
+    padding-right:453px ;
+}
+.contact-us .message {
+    margin-left: 250px;
+    padding-right:453px ;
+}
+.contact-us input {
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+.contact-us a {
+    margin-left: 500px;
+}
+.section-map {
+    background-image: url('../images/mapa.jpg');
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.section-map--area {
+    margin: auto;
+    max-width: 1140px;
+    width: 100vw;
+}
+.section-map--info {
+    width: 50%;
+    padding: 30px;
+    background-color: #fff;
+    color: #000;
+}
+.section-map--info--item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.section-map--info--item--img {
+    width: 30px;
+    height: 30px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    background-color: #ccc;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+.section-map--info--item--img img {
+    height: 15px;
+    width: auto;
+}
+footer {
+    background-color: #212121;
+    display: flex;
+}
+.footer-contacts a {
+    background-color: #555; 
+    margin-left: 15px;
+    height: 20px;
+    width: 20px;
+    display: inline-flex;
+    justify-content: center;
+    border-radius: 15px;   
+}
+.footer-contacts {
+    line-height: 150px;
+    margin-top: 15px;
+    margin-left: 8%;
+}
+.copy {
+    color: #fff;
+}
+.footer-text {
+    color: #555;
+    width: 250px;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+.footer-email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    height: 300px;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #313131;
+}
+.footer-email input {
+    border: 0;
+    border-bottom: 2px solid #919191;
+    background-color: #313131;
+}
